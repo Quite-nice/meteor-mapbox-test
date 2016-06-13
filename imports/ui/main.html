@@ -1,0 +1,36 @@
+<head>
+    <title>simple</title>
+    <script type="text/javascript" src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.js'></script>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+
+    {{>map}}
+
+  <div id='map' style='width: 400px; height: 300px;'></div>
+
+  <script>
+      mapboxgl.accessToken = '<your access token here>';
+      var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v8'
+      });
+  </script>
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="map">
+    <head>
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.js'></script>
+
+    </head>
+
+    <div id="map" style="width: 500px; height: 500px"></div>
+</template>

@@ -1,0 +1,35 @@
+{
+  "name": "hello",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "base64-js": "^1.1.2",
+    "browserify-cipher": "^1.0.0",
+    "browserify-sign": "^4.0.0",
+    "core-util-is": "^1.0.2",
+    "create-ecdh": "^4.0.0",
+    "create-hash": "^1.1.2",
+    "create-hmac": "^1.1.4",
+    "diffie-hellman": "^5.0.2",
+    "gl": "^4.0.1",
+    "ieee754": "^1.1.6",
+    "inherits": "^2.0.1",
+    "isarray": "^1.0.0",
+    "json-loader": "^0.5.4",
+    "mapbox-gl": "^0.20.0",
+    "mapbox.js": "^2.4.0",
+    "meteor-node-stubs": "^0.2.3",
+    "node-zlib-backport": "^0.11.15",
+    "pako": "^1.0.1",
+    "pbkdf2": "^3.0.4",
+    "process-nextick-args": "^1.0.7",
+    "public-encrypt": "^4.0.0",
+    "randombytes": "^2.0.3",
+    "transform-loader": "^0.2.3",
+    "util-deprecate": "^1.0.2",
+    "webpack": "^1.13.1",
+    "webworkify-webpack": "^1.1.0"
+  }
+}
