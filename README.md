@@ -1,2 +1,3 @@
 # meteor-mapbox-test
-# meteor-mapbox-test
+
+Tests for mapbox in meteor
